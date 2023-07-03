@@ -1,0 +1,59 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+}
+
+.popup{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(241, 241, 241);
+    width: 400px;
+    height: 380px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#popup-cont{
+    text-align: center;
+}
+
+#popup-cont input{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#popup-cont input[type="submit"]{
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #3786da;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#popup-cont input[type="submit"]:hover{
+    background-color: #1067c4;
+}
+
+.popup-show{
+    display: block;
+}
+
+.popup-hide{
+    display: none;
+}

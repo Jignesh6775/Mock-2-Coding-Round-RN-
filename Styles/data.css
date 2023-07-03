@@ -1,0 +1,13 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+}
+
+h1{
+    text-align: center;
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
